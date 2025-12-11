@@ -1,4 +1,4 @@
-import ServicesGrid from '@/components/ServicesGrid'
+import ServicesGrid from '../../components/ServicesGrid'
 import Image from 'next/image'
 
 export default function ServicesPage() {

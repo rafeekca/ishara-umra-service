@@ -1,4 +1,4 @@
-import TestimonialCarousel from '@/components/TestimonialCarousel'
+import TestimonialCarousel from '../../components/TestimonialCarousel'
 
 export default function TestimonialsPage() {
   return (

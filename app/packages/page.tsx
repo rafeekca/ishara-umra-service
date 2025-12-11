@@ -1,4 +1,4 @@
-import PackagesCards from '@/components/PackagesCards'
+import PackagesCards from '../../components/PackagesCards'
 import Image from 'next/image'
 
 export default function PackagesPage() {

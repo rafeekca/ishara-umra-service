@@ -1,0 +1,14 @@
+# dependencies
+/node_modules
+
+# build output
+/.next
+/out
+
+# environment variables
+.env*
+!.env.example
+
+# misc
+.DS_Store
+.vercel

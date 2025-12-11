@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { bookingSchema } from '@/lib/validation'
-import { rateLimit } from '@/lib/rateLimit'
-import { createBooking } from '@/lib/airtable'
+import { bookingSchema } from '../../../lib/validation'
+import { rateLimit } from '../../../lib/rateLimit'
+import { createBooking } from '../../../lib/airtable'
 
 export async function POST(req: NextRequest) {
   const ip =
