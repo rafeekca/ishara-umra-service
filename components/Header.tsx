@@ -37,7 +37,7 @@ export default function Header() {
         >
           <Link href="/services" className="block py-2 md:py-0">Services</Link>
           <Link href="/packages" className="block py-2 md:py-0">Packages</Link>
-          <Link href="/booking" className="block py-2 md:py-0">Booking</Link>
+          {/* <Link href="/booking" className="block py-2 md:py-0">Booking</Link> */}
           <Link href="/testimonials" className="block py-2 md:py-0">Testimonials</Link>
           <Link href="/contact" className="block py-2 md:py-0">Contact</Link>
           <Link href="/booking" className="ml-0 md:ml-4 inline-block rounded bg-brand-600 px-3 py-1.5 text-white hover:bg-brand-700 focus:outline-none focus-visible:ring">
